@@ -1,0 +1,20 @@
+/logs
+/.data
+.env
+/.idea
+
+###> symfony/framework-bundle ###
+/app/public/bundles/
+/app/var/
+/app/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/webpack-encore-pack ###
+/app/node_modules/
+/app/public/build/
+###< symfony/webpack-encore-pack ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/app/phpunit.xml
+###< symfony/phpunit-bridge ###
